@@ -1,1 +1,11 @@
+Laporan Analisis Data Mall Customers
+Tujuan
+Kode ini bertujuan untuk melakukan analisis data pelanggan dari pusat perbelanjaan (mall) menggunakan metode eksplorasi data dan pengelompokan (clustering) dengan algoritma K-means. Analisis ini mencakup distribusi demografis pelanggan, distribusi pendapatan tahunan, skor pengeluaran, dan segmentasi pelanggan berdasarkan karakteristik tertentu.
 
+Penjelasan Setiap Bagian Kode
+1. Import Data
+
+`customers <- read.csv("~/Desktop/Mall_Customers.csv.xls", stringsAsFactors=TRUE)`
+`View(customers)`
+Tujuan: Membaca dataset Mall_Customers yang tersimpan di direktori lokal.
+Penjelasan: Dataset dimuat dalam bentuk data frame dengan opsi stringsAsFactors=TRUE, yang mengubah kolom berbentuk teks menjadi tipe factor.
